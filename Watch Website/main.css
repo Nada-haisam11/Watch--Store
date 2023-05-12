@@ -1,0 +1,34 @@
+.gallery .container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+
+.gallery .single-gallery {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.gallery .single-gallery .big-img {
+    height: 690px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.gallery .single-gallery .small-img {
+    height: 330px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gallery .row .gallery-img {
+    transform: scale(1.06);
+    transition: all 0.5s ease;
+
+}
+.gallery .row .gallery-img:hover {
+    filter: brightness(0.6);
+    transform: scale(1);
+    transition: all 0.5s ease;
+
+}
